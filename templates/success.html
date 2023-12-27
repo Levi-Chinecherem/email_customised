@@ -11,19 +11,20 @@
           integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
           crossorigin="anonymous">
 </head>
-<body class="bg-light">
+<body class="bg-light d-flex align-items-center justify-content-center" style="min-height: 100vh;">
 
-<div class="container mt-5">
+<div class="container">
     <div class="card text-white bg-success mb-3 mx-auto" style="max-width: 18rem;">
-        <div class="card-header">Success!</div>
+        <div class="card-header">SUCCESS...!</div>
         <div class="card-body">
             <h5 class="card-title">Email Sent Successfully!</h5>
             <p class="card-text">Thank you for using O Sender.</p>
         </div>
+        <a href="{% url 'send_email' %}" class="btn btn-primary mt-3">Send Another Email</a>
+
     </div>
 
-    <a href="{% url 'send_email' %}" class="btn btn-primary mt-3">Send Another Email</a>
-</div>
+    </div>
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
