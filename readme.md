@@ -1,13 +1,11 @@
-# O Sender
+# O Sender 2
 
-O Sender is a simple web application for sending beautiful and personalized email templates to your loved ones or friends. It allows you to customize email templates and send them with ease.
+O Sender 2 is a simple web application for sending beautiful and personalized email templates to your loved ones or friends. It allows you to customize email templates and send them with ease.
 
 ## Features
 
 - **Customizable Email Templates**: Choose from a variety of pre-designed email templates or create your own. Personalize the content, add images, and make each email special.
-
 - **Email Testing**: Test your email templates before sending them to ensure that they look great and convey the intended message.
-
 - **Responsive Design**: The application is designed to work seamlessly on various devices, ensuring a consistent and pleasant user experience.
 
 ## Installation
@@ -18,6 +16,7 @@ O Sender is a simple web application for sending beautiful and personalized emai
    git clone https://github.com/Levi-Chinecherem/email_customised.git
    cd email_customised
 
+   ```
 2. Install dependencies:
 
    ```bash
@@ -49,4 +48,3 @@ Contributions are welcome! If you find any issues or have suggestions for improv
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
